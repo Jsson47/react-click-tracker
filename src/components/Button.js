@@ -1,8 +1,11 @@
 import React from "react";
 
-function Button({text}) { 
+function Button({text, isClickButton }) { 
   return (
-    {text}
-  );
+    <button
+      className={ isClickButton ? "click-button" : "reset-button" }>
+      {text}
+    </button>
+    );
   
 }
