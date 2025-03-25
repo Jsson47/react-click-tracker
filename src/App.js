@@ -12,7 +12,7 @@ function App() {
           alt='logo de fondo'/>
       </div>
       <div className='principal-container'>
-        
+          
       </div>
     </div>
   );
