@@ -1,4 +1,5 @@
 import React from "react";
+import "../CSS/Counter.css";
 
 function Counter ({ numberClick }) {
   return (

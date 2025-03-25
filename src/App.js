@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button';
+import Counter from './components/Counter';
 import bannerLogo from './img/banner-custom.png'
 
 
@@ -22,14 +23,15 @@ function App() {
           alt='logo de fondo'/>
       </div>
       <div className='principal-container'>
-          <Button
-            text="Click"
-            esClickButton={true}
-            operateClick={handleClick}/>
-          <Button
+        <Counter numberClick="5" />
+        <Button
+          text="Click"
+          esClickButton={true}
+          operateClick={handleClick} />
+        <Button
           text="reset"
           esClickButton={false}
-          operateClick={handleReset}/>
+          operateClick={handleReset} />
       </div>
     </div>
   );
