@@ -9,7 +9,7 @@ body {
     background-color: #ebfaff;
 }
 
-.APP {
+.App {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
